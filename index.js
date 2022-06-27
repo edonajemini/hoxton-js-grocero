@@ -9,3 +9,13 @@ This is how an item object should look like
 }
 
 */
+
+let state = {
+  groceries: [
+      { title: "View items", completed: false },
+      { title: "Add items to the cart", completed: false },
+      { title: "View and adjust the number of items", completed: false },
+      { title: "Remove items from the cart", completed: false },
+  ],
+  showChecked: false
+}
